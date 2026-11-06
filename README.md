@@ -8,6 +8,8 @@ A browser-based generator for living website backgrounds (shader gradients, flow
 - **Showcase** (`/showcase/`): a portfolio page where every hero section is a live exported background.
 - **Runtime** (`packages/runtime`): zero dependencies, vanilla TypeScript, WebGL1 and Canvas 2D, tree-shaken per background type.
 
+**Live:** [studio](https://chevythang1376.github.io/ambient-background-studio/) · [showcase](https://chevythang1376.github.io/ambient-background-studio/showcase/)
+
 ## Setup
 
 Requires Node 22+ (tested on Node 24) and, for the end-to-end tests and poster rendering, an installed Google Chrome (Playwright drives it with `channel: 'chrome'`).
@@ -26,6 +28,10 @@ npm run dev          # studio at http://localhost:5173/, showcase at /showcase/
 | `npm run test:e2e` | Playwright: exported snippets, presets and gallery, showcase (starts or reuses the dev server) |
 | `npm run size` | Minified and gzipped size of each per-type snippet runtime, against the 8 KB budget |
 | `npm run posters` | Renders each preset's poster to `apps/studio/public/posters/` (run after editing a preset) |
+
+### Deploying
+
+Every push to `master` runs [`.github/workflows/pages.yml`](.github/workflows/pages.yml): typecheck, unit tests and the size budget, then `npm run build` and publishing `dist/studio/` to GitHub Pages. If any check fails, nothing is deployed. The build uses relative URLs (`base: './'`), so the same output works at a domain root or under a subpath like `/ambient-background-studio/`, and any static host can serve it. The end-to-end tests need a local Chrome, so run them before pushing. A one-time setup is needed in the repository: Settings → Pages → Source: **GitHub Actions**.
 
 ## Using the snippet
 

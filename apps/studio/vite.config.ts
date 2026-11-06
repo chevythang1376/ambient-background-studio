@@ -31,6 +31,9 @@ function absRuntimes(): Plugin {
 
 export default defineConfig({
   root: here('.'),
+  // Relative URLs in the build, so the same output works at a domain root and
+  // under a subpath such as GitHub Pages' /ambient-background-studio/.
+  base: './',
   plugins: [absRuntimes(), showcase()],
   build: {
     outDir: here('../../dist/studio'),
