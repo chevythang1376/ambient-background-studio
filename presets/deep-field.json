@@ -1,0 +1,24 @@
+{
+  "name": "Deep Field",
+  "mood": "dark-tech",
+  "text": "#ffffff",
+  "description": "Near-black navy with a faint glow, like deep space.",
+  "config": {
+    "type": "shader-gradient",
+    "colors": ["#05070d", "#0b1426", "#13284a", "#0a1a33"],
+    "speed": 0.55,
+    "scale": 1.1,
+    "turbulence": 0.5,
+    "calm": 1,
+    "grain": 0.12,
+    "pointer": "light",
+    "pointerStrength": 0.3,
+    "density": 0.6,
+    "trail": 0.6,
+    "seed": 61,
+    "resolution": 0.5,
+    "dprCap": 1.5,
+    "fps": 30,
+    "reducedMotion": "poster"
+  }
+}

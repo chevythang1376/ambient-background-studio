@@ -1,0 +1,24 @@
+{
+  "name": "Deep Harbor",
+  "mood": "calm-saas",
+  "text": "#ffffff",
+  "description": "Deep navy water with soft currents. Trustworthy, for white headlines.",
+  "config": {
+    "type": "shader-gradient",
+    "colors": ["#0e1f3a", "#16345c", "#21466f", "#0f2847"],
+    "speed": 0.6,
+    "scale": 1.1,
+    "turbulence": 0.5,
+    "calm": 1,
+    "grain": 0.08,
+    "pointer": "light",
+    "pointerStrength": 0.25,
+    "density": 0.6,
+    "trail": 0.6,
+    "seed": 23,
+    "resolution": 0.5,
+    "dprCap": 1.5,
+    "fps": 30,
+    "reducedMotion": "poster"
+  }
+}

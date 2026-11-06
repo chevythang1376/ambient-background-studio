@@ -1,0 +1,24 @@
+{
+  "name": "Signal",
+  "mood": "dark-tech",
+  "text": "#ffffff",
+  "description": "Teal signal lines streaming through the dark.",
+  "config": {
+    "type": "flow-field",
+    "colors": ["#070a0f", "#2f8fa8", "#2fa39b"],
+    "speed": 0.6,
+    "scale": 1.1,
+    "turbulence": 0.5,
+    "calm": 1,
+    "grain": 0.1,
+    "pointer": "repel",
+    "pointerStrength": 0.3,
+    "density": 0.55,
+    "trail": 0.75,
+    "seed": 21,
+    "resolution": 0.5,
+    "dprCap": 1.5,
+    "fps": 30,
+    "reducedMotion": "poster"
+  }
+}

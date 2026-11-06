@@ -1,0 +1,24 @@
+{
+  "name": "Grape Soda",
+  "mood": "playful",
+  "text": "#ffffff",
+  "description": "Fizzy violets for a playful brand with white type.",
+  "config": {
+    "type": "shader-gradient",
+    "colors": ["#28194a", "#3a2869", "#553c88", "#311f58"],
+    "speed": 0.75,
+    "scale": 1,
+    "turbulence": 0.6,
+    "calm": 1,
+    "grain": 0.08,
+    "pointer": "attract",
+    "pointerStrength": 0.3,
+    "density": 0.6,
+    "trail": 0.6,
+    "seed": 44,
+    "resolution": 0.5,
+    "dprCap": 1.5,
+    "fps": 30,
+    "reducedMotion": "poster"
+  }
+}

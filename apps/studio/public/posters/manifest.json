@@ -1,0 +1,146 @@
+{
+  "champagne-silk": {
+    "hash": "e7086e2506f34540",
+    "width": 1280,
+    "height": 720,
+    "bytes": 5718
+  },
+  "cognac": {
+    "hash": "85bdf1d1cbfb9194",
+    "width": 1280,
+    "height": 720,
+    "bytes": 8890
+  },
+  "confetti-drift": {
+    "hash": "afcfaf88dde71c88",
+    "width": 1280,
+    "height": 720,
+    "bytes": 7488
+  },
+  "deep-field": {
+    "hash": "a088c213c7b74942",
+    "width": 1280,
+    "height": 720,
+    "bytes": 7754
+  },
+  "deep-harbor": {
+    "hash": "29193765bd1fe573",
+    "width": 1280,
+    "height": 720,
+    "bytes": 8230
+  },
+  "doodle-wind": {
+    "hash": "f2fb0b5eb7aa8cff",
+    "width": 960,
+    "height": 540,
+    "bytes": 45660
+  },
+  "grape-soda": {
+    "hash": "4c3538ca8ea51d9d",
+    "width": 1280,
+    "height": 720,
+    "bytes": 10612
+  },
+  "graphite-mesh": {
+    "hash": "e57d79c83d2a6359",
+    "width": 1280,
+    "height": 720,
+    "bytes": 6800
+  },
+  "ion-drift": {
+    "hash": "7aac526c4c459d3e",
+    "width": 1280,
+    "height": 720,
+    "bytes": 10330
+  },
+  "ivory-constellation": {
+    "hash": "e19029801ff2547d",
+    "width": 1280,
+    "height": 720,
+    "bytes": 6412
+  },
+  "lagoon": {
+    "hash": "bb894217a3742c5a",
+    "width": 1280,
+    "height": 720,
+    "bytes": 6716
+  },
+  "linen": {
+    "hash": "d066bb38621732e4",
+    "width": 1280,
+    "height": 720,
+    "bytes": 4570
+  },
+  "marble-smoke": {
+    "hash": "ce7935669fede86c",
+    "width": 1280,
+    "height": 720,
+    "bytes": 6006
+  },
+  "midnight-grid": {
+    "hash": "bc96a248c91fb572",
+    "width": 1280,
+    "height": 720,
+    "bytes": 8224
+  },
+  "morning-mist": {
+    "hash": "8ffbeb4084f74e6c",
+    "width": 1280,
+    "height": 720,
+    "bytes": 5612
+  },
+  "night-current": {
+    "hash": "a9e2bbcd4368c0a7",
+    "width": 960,
+    "height": 540,
+    "bytes": 72364
+  },
+  "onyx-gold": {
+    "hash": "c160a9f9d4a4d131",
+    "width": 960,
+    "height": 540,
+    "bytes": 69320
+  },
+  "quiet-lines": {
+    "hash": "6be25586b2935841",
+    "width": 960,
+    "height": 540,
+    "bytes": 50448
+  },
+  "sage-paper": {
+    "hash": "1f23205ffe6a7423",
+    "width": 1280,
+    "height": 720,
+    "bytes": 5666
+  },
+  "sherbet": {
+    "hash": "d85c15356bfb088e",
+    "width": 1280,
+    "height": 720,
+    "bytes": 9892
+  },
+  "signal": {
+    "hash": "8976bc45382d0660",
+    "width": 960,
+    "height": 540,
+    "bytes": 69214
+  },
+  "soft-network": {
+    "hash": "f87411415808c3bf",
+    "width": 1280,
+    "height": 720,
+    "bytes": 6196
+  },
+  "tangerine-dusk": {
+    "hash": "51db05eaa0031e1c",
+    "width": 1280,
+    "height": 720,
+    "bytes": 7462
+  },
+  "velvet-plum": {
+    "hash": "f9455615147eeb08",
+    "width": 1280,
+    "height": 720,
+    "bytes": 8376
+  }
+}

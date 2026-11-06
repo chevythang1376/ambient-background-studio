@@ -1,0 +1,24 @@
+{
+  "name": "Linen",
+  "mood": "calm-saas",
+  "text": "#111111",
+  "description": "Warm off-whites folding slowly, like fabric in a draught.",
+  "config": {
+    "type": "shader-gradient",
+    "colors": ["#f4efe7", "#e9e0d3", "#ddd2c3", "#f7f3ed"],
+    "speed": 0.5,
+    "scale": 1.4,
+    "turbulence": 0.35,
+    "calm": 1,
+    "grain": 0.08,
+    "pointer": "light",
+    "pointerStrength": 0.2,
+    "density": 0.6,
+    "trail": 0.6,
+    "seed": 41,
+    "resolution": 0.5,
+    "dprCap": 1.5,
+    "fps": 30,
+    "reducedMotion": "poster"
+  }
+}

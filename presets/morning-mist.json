@@ -1,0 +1,24 @@
+{
+  "name": "Morning Mist",
+  "mood": "calm-saas",
+  "text": "#111111",
+  "description": "Pale blue fog that barely moves. Quiet enough for a pricing page.",
+  "config": {
+    "type": "shader-gradient",
+    "colors": ["#e8edf5", "#d5dff0", "#c6d3ec", "#eceff6"],
+    "speed": 0.6,
+    "scale": 1.2,
+    "turbulence": 0.4,
+    "calm": 1,
+    "grain": 0.06,
+    "pointer": "light",
+    "pointerStrength": 0.2,
+    "density": 0.6,
+    "trail": 0.6,
+    "seed": 12,
+    "resolution": 0.5,
+    "dprCap": 1.5,
+    "fps": 30,
+    "reducedMotion": "poster"
+  }
+}

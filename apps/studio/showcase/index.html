@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="data:," />
+    <!-- A stylesheet link, not a JS import: the page must lay out with JavaScript off. -->
+    <link rel="stylesheet" href="../src/showcase.css" />
+    <title>Showcase · Ambient Background Studio</title>
+    <meta name="description" content="Every hero on this page is a live background exported from Ambient Background Studio: paused off-screen, capped at 30 fps, still for reduced motion." />
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+
+    <header class="sc-top">
+      <a class="sc-brand" href="../">Ambient Background Studio</a>
+      <nav aria-label="Showcase">
+        <a href="#presets">Presets</a>
+        <a href="#budget">Budget</a>
+        <a class="sc-top__cta" href="../">Open the studio</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <!-- abs:heroes -->
+
+      <section class="sc-index" id="presets" aria-labelledby="presets-title">
+        <div class="sc-wrap">
+          <h2 id="presets-title" class="sc-index__title"><!-- abs:count --> presets, four moods</h2>
+          <p class="sc-lede">Each is one JSON file: a name, a mood, the headline colour it was tuned for and a full config. Open any of them in the studio to make it yours.</p>
+          <div class="sc-moods"><!-- abs:presets --></div>
+        </div>
+      </section>
+
+      <section class="sc-index sc-budget" id="budget" aria-labelledby="budget-title">
+        <div class="sc-wrap">
+          <h2 id="budget-title" class="sc-index__title">The budget, measured</h2>
+          <p class="sc-lede">This page runs <!-- abs:hero-count --> live backgrounds and only animates the ones you can see. Each exported snippet carries the runtime for its own type, and nothing else.</p>
+          <ul class="sc-facts">
+            <!-- abs:budget -->
+            <li><span>Frame-rate cap</span> <strong>30 fps</strong></li>
+            <li><span>Render scale · DPR cap</span> <strong>0.5× · 1.5</strong></li>
+            <li><span>Off-screen or hidden tab</span> <strong>0 rAF</strong></li>
+            <li><span>Reduced motion</span> <strong>poster frame</strong></li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="sc-foot">
+      <div class="sc-wrap">
+        <p>Made with Ambient Background Studio. The brands above are fictional. Backgrounds never carry content: every headline here is real text.</p>
+      </div>
+    </footer>
+
+    <p class="sc-hud" id="hud" aria-hidden="true"></p>
+
+    <script type="module" src="../src/showcase.ts"></script>
+  </body>
+</html>

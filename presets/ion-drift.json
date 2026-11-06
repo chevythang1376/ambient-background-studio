@@ -1,0 +1,24 @@
+{
+  "name": "Ion Drift",
+  "mood": "dark-tech",
+  "text": "#ffffff",
+  "description": "Dark teal currents with a soft charge.",
+  "config": {
+    "type": "shader-gradient",
+    "colors": ["#061012", "#0a2a2c", "#0f433e", "#091c22"],
+    "speed": 0.6,
+    "scale": 1,
+    "turbulence": 0.55,
+    "calm": 1,
+    "grain": 0.12,
+    "pointer": "light",
+    "pointerStrength": 0.3,
+    "density": 0.6,
+    "trail": 0.6,
+    "seed": 77,
+    "resolution": 0.5,
+    "dprCap": 1.5,
+    "fps": 30,
+    "reducedMotion": "poster"
+  }
+}

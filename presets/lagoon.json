@@ -1,0 +1,24 @@
+{
+  "name": "Lagoon",
+  "mood": "playful",
+  "text": "#111111",
+  "description": "Mint, aqua and periwinkle, cool and bright.",
+  "config": {
+    "type": "shader-gradient",
+    "colors": ["#d8f2ee", "#c1e6f0", "#d9e2fa", "#cbefdc"],
+    "speed": 0.7,
+    "scale": 1,
+    "turbulence": 0.5,
+    "calm": 1,
+    "grain": 0.05,
+    "pointer": "repel",
+    "pointerStrength": 0.3,
+    "density": 0.6,
+    "trail": 0.6,
+    "seed": 36,
+    "resolution": 0.5,
+    "dprCap": 1.5,
+    "fps": 30,
+    "reducedMotion": "poster"
+  }
+}

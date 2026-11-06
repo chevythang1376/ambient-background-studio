@@ -1,0 +1,24 @@
+{
+  "name": "Velvet Plum",
+  "mood": "luxury",
+  "text": "#ffffff",
+  "description": "Plum and black velvet, slow and heavy, with grain.",
+  "config": {
+    "type": "shader-gradient",
+    "colors": ["#140e16", "#29162d", "#452444", "#1c1120"],
+    "speed": 0.45,
+    "scale": 1.2,
+    "turbulence": 0.6,
+    "calm": 1,
+    "grain": 0.22,
+    "pointer": "light",
+    "pointerStrength": 0.25,
+    "density": 0.6,
+    "trail": 0.6,
+    "seed": 14,
+    "resolution": 0.5,
+    "dprCap": 1.5,
+    "fps": 30,
+    "reducedMotion": "poster"
+  }
+}

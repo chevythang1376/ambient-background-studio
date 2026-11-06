@@ -1,0 +1,24 @@
+{
+  "name": "Tangerine Dusk",
+  "mood": "playful",
+  "text": "#111111",
+  "description": "Apricot and coral warmth, like the last hour of sun.",
+  "config": {
+    "type": "shader-gradient",
+    "colors": ["#ffdcbc", "#ffc8a8", "#f8bba6", "#ffe8cc"],
+    "speed": 0.7,
+    "scale": 1.1,
+    "turbulence": 0.5,
+    "calm": 1,
+    "grain": 0.06,
+    "pointer": "light",
+    "pointerStrength": 0.3,
+    "density": 0.6,
+    "trail": 0.6,
+    "seed": 19,
+    "resolution": 0.5,
+    "dprCap": 1.5,
+    "fps": 30,
+    "reducedMotion": "poster"
+  }
+}

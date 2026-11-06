@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="data:," />
+    <title>ABS · Phase 2 runtime test</title>
+  </head>
+  <body>
+    <aside class="hud" aria-label="Runtime diagnostics">
+      <strong>Phase 2 runtime</strong>
+      <p class="flags" id="flags"></p>
+      <table>
+        <thead>
+          <tr><th>#</th><th>type</th><th>state</th><th>backing</th><th>fps</th></tr>
+        </thead>
+        <tbody id="rows"></tbody>
+      </table>
+      <p>rAF callbacks/s: <b id="raf">0</b></p>
+      <div class="buttons">
+        <button type="button" id="lose">Lose WebGL context (#1)</button>
+        <button type="button" id="restore">Restore context</button>
+        <button type="button" id="toggle-rm">Toggle reduced motion</button>
+      </div>
+      <p class="links">
+        <a href="?">normal</a> · <a href="?reduced">reduced</a> · <a href="?reduced&amp;still">reduced + still</a> ·
+        <a href="?nowebgl">no WebGL</a>
+      </p>
+    </aside>
+
+    <section class="demo" data-type="shader-gradient">
+      <div class="abs-bg" data-abs='{"type":"shader-gradient","colors":["#1d1d1f","#3b3346","#96694c","#d9b99b"],"grain":0.2}'>
+        <img class="abs-bg__poster" alt="" />
+        <canvas class="abs-bg__canvas" aria-hidden="true"></canvas>
+      </div>
+      <div class="copy light"><h1>Beautiful, but responsible.</h1><p>Selectable text sits on top. The background never takes clicks.</p><a href="#flow">Next section</a></div>
+    </section>
+
+    <section class="demo" id="flow" data-type="flow-field">
+      <div class="abs-bg" data-abs='{"type":"flow-field","colors":["#0f1115","#3d5a80","#98c1d9","#e0e7ee"],"grain":0.15,"turbulence":0.35}'>
+        <img class="abs-bg__poster" alt="" />
+        <canvas class="abs-bg__canvas" aria-hidden="true"></canvas>
+      </div>
+      <div class="copy light"><h2>Flow field</h2><p>Thousands of lines on one Canvas 2D stroke per frame.</p></div>
+    </section>
+
+    <section class="demo" data-type="particle-mesh">
+      <div class="abs-bg" data-abs='{"type":"particle-mesh","colors":["#0b0d12","#5b6b8c","#c9d4e8"],"grain":0.1,"pointer":"light","pointerStrength":0.6}'>
+        <img class="abs-bg__poster" alt="" />
+        <canvas class="abs-bg__canvas" aria-hidden="true"></canvas>
+      </div>
+      <div class="copy light"><h2>Particle mesh</h2><p>Grid-bucketed neighbour lookups. The cursor joins the network.</p></div>
+    </section>
+
+    <section class="demo" data-type="shader-gradient">
+      <div class="abs-bg" data-abs='{"type":"shader-gradient","colors":["#eef1f6","#dfe6f3","#c7d3ee","#f3e6dc"],"grain":0.08,"turbulence":0.35,"speed":0.7}'>
+        <img class="abs-bg__poster" alt="" />
+        <canvas class="abs-bg__canvas" aria-hidden="true"></canvas>
+      </div>
+      <div class="copy dark"><h2>Second shader instance</h2><p>Two WebGL instances on one page, each with its own scheduler.</p></div>
+    </section>
+
+    <div class="spacer"><p>Scroll here: every background is off-screen, so rAF callbacks/s should read 0.</p></div>
+
+    <script type="module" src="./src/runtime-test.ts"></script>
+  </body>
+</html>

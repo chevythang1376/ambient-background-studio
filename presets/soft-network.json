@@ -1,0 +1,24 @@
+{
+  "name": "Soft Network",
+  "mood": "calm-saas",
+  "text": "#111111",
+  "description": "A light, slow network of dots. Says “connected” without the noise.",
+  "config": {
+    "type": "particle-mesh",
+    "colors": ["#f6f7f9", "#7f8ea6", "#9aa7ba"],
+    "speed": 0.5,
+    "scale": 1.1,
+    "turbulence": 0.3,
+    "calm": 1,
+    "grain": 0.04,
+    "pointer": "light",
+    "pointerStrength": 0.25,
+    "density": 0.6,
+    "trail": 0.6,
+    "seed": 18,
+    "resolution": 0.5,
+    "dprCap": 1.5,
+    "fps": 30,
+    "reducedMotion": "poster"
+  }
+}

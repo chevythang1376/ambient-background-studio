@@ -1,0 +1,24 @@
+{
+  "name": "Champagne Silk",
+  "mood": "luxury",
+  "text": "#111111",
+  "description": "Ivory and champagne silk with a soft sheen.",
+  "config": {
+    "type": "shader-gradient",
+    "colors": ["#efe6d8", "#e4d5bf", "#d8c4a6", "#f5eee4"],
+    "speed": 0.45,
+    "scale": 1.5,
+    "turbulence": 0.4,
+    "calm": 1,
+    "grain": 0.18,
+    "pointer": "light",
+    "pointerStrength": 0.2,
+    "density": 0.6,
+    "trail": 0.6,
+    "seed": 31,
+    "resolution": 0.5,
+    "dprCap": 1.5,
+    "fps": 30,
+    "reducedMotion": "poster"
+  }
+}

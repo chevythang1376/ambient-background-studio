@@ -1,0 +1,24 @@
+{
+  "name": "Midnight Grid",
+  "mood": "dark-tech",
+  "text": "#ffffff",
+  "description": "Steel-blue nodes linking up across a midnight sky.",
+  "config": {
+    "type": "particle-mesh",
+    "colors": ["#0a0e14", "#3f86b0", "#5596be"],
+    "speed": 0.55,
+    "scale": 1,
+    "turbulence": 0.35,
+    "calm": 1,
+    "grain": 0.1,
+    "pointer": "light",
+    "pointerStrength": 0.3,
+    "density": 0.55,
+    "trail": 0.6,
+    "seed": 4,
+    "resolution": 0.5,
+    "dprCap": 1.5,
+    "fps": 30,
+    "reducedMotion": "poster"
+  }
+}

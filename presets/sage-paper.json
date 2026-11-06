@@ -1,0 +1,24 @@
+{
+  "name": "Sage Paper",
+  "mood": "calm-saas",
+  "text": "#111111",
+  "description": "Muted greens on paper white. Calm, natural, a little botanical.",
+  "config": {
+    "type": "shader-gradient",
+    "colors": ["#e7ece4", "#d4dfd3", "#c3d3c5", "#eef2ea"],
+    "speed": 0.55,
+    "scale": 1.1,
+    "turbulence": 0.45,
+    "calm": 1,
+    "grain": 0.06,
+    "pointer": "attract",
+    "pointerStrength": 0.2,
+    "density": 0.6,
+    "trail": 0.6,
+    "seed": 7,
+    "resolution": 0.5,
+    "dprCap": 1.5,
+    "fps": 30,
+    "reducedMotion": "poster"
+  }
+}

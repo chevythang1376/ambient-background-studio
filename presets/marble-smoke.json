@@ -1,0 +1,24 @@
+{
+  "name": "Marble Smoke",
+  "mood": "luxury",
+  "text": "#ffffff",
+  "description": "Graphite smoke curling through black marble.",
+  "config": {
+    "type": "shader-gradient",
+    "colors": ["#18191b", "#2b2d30", "#43464a", "#202124"],
+    "speed": 0.4,
+    "scale": 1.15,
+    "turbulence": 0.5,
+    "calm": 1,
+    "grain": 0.26,
+    "pointer": "attract",
+    "pointerStrength": 0.2,
+    "density": 0.6,
+    "trail": 0.6,
+    "seed": 58,
+    "resolution": 0.5,
+    "dprCap": 1.5,
+    "fps": 30,
+    "reducedMotion": "poster"
+  }
+}

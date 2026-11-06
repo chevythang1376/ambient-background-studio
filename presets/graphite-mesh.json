@@ -1,0 +1,24 @@
+{
+  "name": "Graphite Mesh",
+  "mood": "dark-tech",
+  "text": "#ffffff",
+  "description": "Grey nodes on graphite. Technical, quiet, neutral.",
+  "config": {
+    "type": "particle-mesh",
+    "colors": ["#111214", "#7d8594", "#8c93a1"],
+    "speed": 0.5,
+    "scale": 1.2,
+    "turbulence": 0.3,
+    "calm": 1,
+    "grain": 0.12,
+    "pointer": "repel",
+    "pointerStrength": 0.25,
+    "density": 0.5,
+    "trail": 0.6,
+    "seed": 33,
+    "resolution": 0.5,
+    "dprCap": 1.5,
+    "fps": 30,
+    "reducedMotion": "poster"
+  }
+}

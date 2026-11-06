@@ -1,0 +1,24 @@
+{
+  "name": "Night Current",
+  "mood": "dark-tech",
+  "text": "#ffffff",
+  "description": "Indigo currents flowing through deep night.",
+  "config": {
+    "type": "flow-field",
+    "colors": ["#0b0d17", "#5257b0", "#7a6cc0"],
+    "speed": 0.55,
+    "scale": 1.2,
+    "turbulence": 0.45,
+    "calm": 1,
+    "grain": 0.1,
+    "pointer": "light",
+    "pointerStrength": 0.25,
+    "density": 0.55,
+    "trail": 0.75,
+    "seed": 52,
+    "resolution": 0.5,
+    "dprCap": 1.5,
+    "fps": 30,
+    "reducedMotion": "poster"
+  }
+}

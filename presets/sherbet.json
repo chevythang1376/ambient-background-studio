@@ -1,0 +1,24 @@
+{
+  "name": "Sherbet",
+  "mood": "playful",
+  "text": "#111111",
+  "description": "Peach, lemon and rose pastels swirling gently.",
+  "config": {
+    "type": "shader-gradient",
+    "colors": ["#ffe4d6", "#ffd3c4", "#fbe6b8", "#f5d8ea"],
+    "speed": 0.75,
+    "scale": 1,
+    "turbulence": 0.55,
+    "calm": 1,
+    "grain": 0.06,
+    "pointer": "attract",
+    "pointerStrength": 0.3,
+    "density": 0.6,
+    "trail": 0.6,
+    "seed": 8,
+    "resolution": 0.5,
+    "dprCap": 1.5,
+    "fps": 30,
+    "reducedMotion": "poster"
+  }
+}
